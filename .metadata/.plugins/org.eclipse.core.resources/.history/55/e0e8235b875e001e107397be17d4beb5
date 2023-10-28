@@ -1,0 +1,16 @@
+
+public class NullPointerExceptionDemo {
+
+	public static void main(String[] args) {
+		try
+		{
+		String stringToTest = null;
+		System.out.println(stringToTest.concat("Sss"));
+		}
+		catch(Exception ex)
+		{
+			System.out.println("Null Pointer Exception caught");
+		}
+	}
+
+}

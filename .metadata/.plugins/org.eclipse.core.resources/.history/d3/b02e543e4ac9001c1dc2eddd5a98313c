@@ -1,0 +1,11 @@
+package com.java8.defaultMethodDemo;
+@FunctionalInterface
+public interface DefaultMethod {
+	
+	float subtract();
+	
+	public default void print()
+{
+	System.out.println("Here we can print the calculations done in functions");
+}
+}

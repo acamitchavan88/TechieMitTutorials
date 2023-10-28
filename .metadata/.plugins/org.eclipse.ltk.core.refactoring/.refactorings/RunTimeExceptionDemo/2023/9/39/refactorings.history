@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;ArrayIndexOutOfBoundsException.java&apos; to &apos;ArrayIndexOutOfBoundsExceptionDemo.java&apos;&#x0D;&#x0A;- Original project: &apos;RunTimeExceptionDemo&apos;&#x0D;&#x0A;- Original element: &apos;ArrayIndexOutOfBoundsException.java&apos;&#x0D;&#x0A;- Renamed element: &apos;ArrayIndexOutOfBoundsExceptionDemo.java&apos;" description="Rename compilation unit &apos;ArrayIndexOutOfBoundsException.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{ArrayIndexOutOfBoundsException.java" name="ArrayIndexOutOfBoundsExceptionDemo.java" references="false" stamp="1695964588685" version="1.0"/>
+</session>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.java8.defaultMethodDemo.DefaultMethod&apos; to &apos;DefaultMethodInterface&apos;&#x0D;&#x0A;- Original project: &apos;DefaultMethodsDemo&apos;&#x0D;&#x0A;- Original element: &apos;com.java8.defaultMethodDemo.DefaultMethod&apos;&#x0D;&#x0A;- Renamed element: &apos;com.java8.defaultMethodDemo.DefaultMethodInterface&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;DefaultMethod&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.java8.defaultMethodDemo{DefaultMethod.java[DefaultMethod" matchStrategy="1" name="DefaultMethodInterface" qualified="false" references="true" similarDeclarations="false" stamp="1651408125220" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,10 @@
+
+public class ArrayIndexOutOfBoundsExceptionDemo {
+
+	public static void main(String[] args) {
+		int []numArray=new int[2];
+		System.out.println(numArray[3]);
+
+	}
+
+}

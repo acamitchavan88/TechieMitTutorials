@@ -1,0 +1,58 @@
+public class Person {
+
+	
+	
+
+	private int personAge;
+	private String personName;
+	private String personAddress;
+	public Person()
+	{
+		
+	}
+	
+	public Person(int personAge, String personName, String personAddress) {
+		super();
+		this.personAge = personAge;
+		this.personName = personName;
+		this.personAddress = personAddress;
+	}
+	
+	@Override
+/*	public boolean equals(Object obj)
+	{
+		if(this==obj)
+			return true;
+		if(this==null || getClass()!=obj.getClass())
+			return false;
+		Person newObject=(Person) obj;
+		return (this.getPersonAge()==newObject.getPersonAge());
+		
+	}
+	@Override
+	public int hashCode()
+	{
+		return getPersonAge();
+	}
+	*/
+	public int getPersonAge() {
+		return personAge;
+	}
+	public void setPersonAge(int personAge) {
+		this.personAge = personAge;
+	}
+	public String getPersonName() {
+		return personName;
+	}
+	public void setPersonName(String personName) {
+		this.personName = personName;
+	}
+	public String getPersonAddress() {
+		return personAddress;
+	}
+	public void setPersonAddress(String personAddress) {
+		this.personAddress = personAddress;
+	}
+	
+	
+}

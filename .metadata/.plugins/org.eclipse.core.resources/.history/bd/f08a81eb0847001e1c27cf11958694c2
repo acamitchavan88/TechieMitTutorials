@@ -1,0 +1,17 @@
+package exceptionDemo;
+
+public class ClassNotFoundExceptionDemo {
+
+	public static void main(String[] args)   {
+		try
+		{
+		Class.forName("exceptionDemo.StudentDemo");
+		Class.getClassLoader().loadClass("exceptionDemo.StudentDemo");
+		}
+		catch(Exception ex)
+		{
+			ex.printStackTrace();
+		}
+	}
+
+}

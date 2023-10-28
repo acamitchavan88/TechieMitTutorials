@@ -1,0 +1,8 @@
+
+public class NullPointerExceptionDemo {
+
+	public static void main(String[] args) {
+		
+	}
+
+}

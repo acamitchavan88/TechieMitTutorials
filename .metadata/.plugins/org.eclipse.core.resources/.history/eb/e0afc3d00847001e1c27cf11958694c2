@@ -1,0 +1,10 @@
+package exceptionDemo;
+
+public class ClassNotFoundExceptionDemo {
+
+	public static void main(String[] args)  {
+		
+		
+	}
+
+}

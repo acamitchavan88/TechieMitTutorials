@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class UserdefinedExceptionDemo {
+
+	public static void main(String[] args) throws MyException{
+		System.out.println("Enter the user input");	
+		Scanner scanner=new Scanner(System.in);
+			int number=scanner.nextInt();
+		if(number>=1 && number <=20)
+		{
+			System.out.println("Number within valid range input of numbers");
+		}
+		else
+		{
+			throw new MyException("Number not in valid range");
+		}
+			
+	}
+	
+}
