@@ -2,7 +2,7 @@
  * @Author #TechieMit
  * Program for interCommunication of threads
  */
-class WorkerThread extends Thread {
+class WorkerThread extends Thread { 
 	int prodofNNos = 1;
 	public void run() {
 		System.out.println("In run method of worker thread ");
@@ -20,7 +20,7 @@ public class InterCommunicationDemo {
 		WorkerThread workThreadInstance = new WorkerThread();
 		workThreadInstance.start();
 		// Give call for product of n numbers
-		synchronized (workThreadInstance) {// Wait will release main thread											// monitor /lock
+		synchronized (workThreadInstance) {// Wait will release main thread	// monitor /lock
 			workThreadInstance.wait();
 			System.out.println("Within main method in synchronized context");
 			// Get the result of worker Thread
