@@ -50,6 +50,6 @@ public class WaitNotifyExample {
             } finally {
                 lock.unlock();
             }
-        }
+        }  
     }
 }

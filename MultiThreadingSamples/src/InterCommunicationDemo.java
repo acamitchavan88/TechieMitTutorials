@@ -14,7 +14,7 @@ class WorkerThread extends Thread {
 			this.notify();
 		}
 	}
-}
+}  
 public class InterCommunicationDemo {
 	public static void main(String p[]) throws InterruptedException {
 		WorkerThread workThreadInstance = new WorkerThread();
