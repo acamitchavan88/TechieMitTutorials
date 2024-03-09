@@ -36,6 +36,7 @@ public class InterCommunicationDemo {
 	
 		WorkerThread workThreadInstance = new WorkerThread();
 		workThreadInstance.threadDemo.start();
+		
 		// Give call for product of n numbers
 		synchronized (workThreadInstance) {// Wait will release main thread	// monitor /lock
 			workThreadInstance.wait();
