@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<list key="installedFeatures">
 		<item value="com.ianbrandt.tools.m2e.mdp.feature:0.0.4.201409291703"/>
+		<item value="de.jcup.basheditor:2.9.1"/>
 		<item value="net.mihai-nita.ansicon:1.4.5.202111252246"/>
 		<item value="org.eclipse.buildship:3.1.5.v20210113-0929"/>
 		<item value="org.eclipse.egit.gitflow.feature:6.0.0.202111291000-r"/>
@@ -49,6 +50,7 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="G:\Amit\Youtube\TechieMitTutorials-main\MultiThreadingSamples"/>
 			<item value="G:\Amit\Youtube\TechieMitTutorials-main\StreamAPI"/>
 		</list>
 		<list key="WizardProjectsImportPage.STORE_ARCHIVES">
