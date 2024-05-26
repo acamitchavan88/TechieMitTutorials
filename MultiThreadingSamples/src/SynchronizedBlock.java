@@ -3,7 +3,7 @@ import java.util.Scanner;
 /*
  * @Author #TechieMit 
  * 
- *  Program to display synchronization in multithreading in Java
+ *  Program that  display synchronization in multithreading in Java
  *  
  *  MovieTicketCounterDemo (Here logic for synchronized content)
  *  TicketHelperDemo (Class contains logic for taking user input for multiple Threads)
