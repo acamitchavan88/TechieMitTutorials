@@ -16,7 +16,7 @@ public class CallableDemo implements Callable<Integer>{
 		{
 		Callable callableDemo=new CallableDemo();
 		 //Will call the task
-		futureTasks[i]=new FutureTask<>(callableDemo);
+		futureTasks[i]=new FutureTask<Integer>(callableDemo);
 			 Thread thread=new Thread(futureTasks[i]);
 			 thread.start();
 			 //Show the demo of 10 random nos
