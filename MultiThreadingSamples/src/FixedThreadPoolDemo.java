@@ -27,7 +27,7 @@ public class FixedThreadPoolDemo {
 	public static void main(String[] args) {
 		// Create fixed no of threads in pool
 		ExecutorService executorDemo = Executors.newFixedThreadPool(6);
-
+		
 		Task taskObject = new Task();
 		for (int i = 1; i <= 6; i++) {
 			executorDemo.execute(taskObject);
