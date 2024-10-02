@@ -5,7 +5,7 @@ import java.util.concurrent.locks.ReentrantLock;
  * #TechieMit program to show reentrant lock demo in Java
  */
 
-class ShowResource { 
+class ShowResource {  
 	private final Lock lockObject = new ReentrantLock();
 
 	public void showResourceDemo(String name) {
