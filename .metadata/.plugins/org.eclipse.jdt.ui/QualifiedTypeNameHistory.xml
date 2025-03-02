@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="DateTimeFormatter"/>
-    <fullyQualifiedTypeName name="java.time.format.DateTimeFormatterBuilder"/>
     <fullyQualifiedTypeName name="java.time.temporal.ChronoField"/>
     <fullyQualifiedTypeName name="java.time.format.DateTimeFormatter"/>
     <fullyQualifiedTypeName name="java.time.ZoneId"/>
@@ -56,8 +54,10 @@
     <fullyQualifiedTypeName name="java.lang.invoke.MethodHandles.Lookup.ClassOption"/>
     <fullyQualifiedTypeName name="java.util.Comparator"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
-    <fullyQualifiedTypeName name="java.util.concurrent.PriorityBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.LinkedBlockingQueue"/>
     <fullyQualifiedTypeName name="TaskDemo"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.PriorityBlockingQueue"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.CyclicBarrier"/>
+    <fullyQualifiedTypeName name="java.util.concurrent.Executors"/>
     <fullyQualifiedTypeName name="java.util.concurrent.TimeUnit"/>
 </qualifiedTypeNameHistroy>

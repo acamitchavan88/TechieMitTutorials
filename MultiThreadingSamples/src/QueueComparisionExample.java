@@ -57,12 +57,28 @@ public class QueueComparisionExample {
 		List<TaskDemo> taskDemoList=Arrays.asList(new TaskDemo(2, "Task1")
 				,new TaskDemo(1, "Task2")
 				,new TaskDemo(4, "Task3")
-				,new TaskDemo(3, "Task4")
+				,new TaskDemo(3, "Task4"),
+				new TaskDemo(2, "Task5")
+				,new TaskDemo(1, "Task6")
+				,new TaskDemo(4, "Task7")
+				,new TaskDemo(3, "Task8"),
+				new TaskDemo(2, "Task9")
+				,new TaskDemo(1, "Task10")
+				,new TaskDemo(4, "Task11")
+				,new TaskDemo(3, "Task12"),
+				new TaskDemo(2, "Task13")
+				,new TaskDemo(1, "Task14")
+				,new TaskDemo(4, "Task15")
+				,new TaskDemo(3, "Task16"),
+				new TaskDemo(2, "Task17")
+				,new TaskDemo(1, "Task18")
+				,new TaskDemo(4, "Task19")
+				,new TaskDemo(3, "Task20")
 				);
 		
 		
 		//Creation of queues and executors
-		ExecutorService execTask=Executors.newFixedThreadPool(4);
+		ExecutorService execTask=Executors.newFixedThreadPool(20);
 		BlockingQueue<TaskDemo> blockingQueue=new LinkedBlockingQueue<>();
 		PriorityBlockingQueue<TaskDemo> priorityBlockingQueue=new PriorityBlockingQueue<>();
 		
@@ -131,7 +147,7 @@ public class QueueComparisionExample {
 		execTask.submit(consumerBlockingQueue);
 		execTask.submit(consumerPriorityBlockingQueue);
 		
-		if(!execTask.awaitTermination(3000, TimeUnit.MILLISECONDS))
+		if(!execTask.awaitTermination(13000, TimeUnit.MILLISECONDS))
 		{
 			execTask.shutdown();
 			System.out.println("Graceful shutdown of all the tasks");
