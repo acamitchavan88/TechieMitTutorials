@@ -5,7 +5,7 @@ import java.util.*;
 import java.util.stream.Collectors;
 
 // Highly cohesive class: only stores Employee data
-class Employee {
+class Employee { 
     private String empName;
     private int empAge;
     private double empSalary;

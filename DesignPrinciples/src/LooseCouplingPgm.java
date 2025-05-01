@@ -7,7 +7,7 @@ interface NotificationService
 }
 
 class SMSNotificationService implements NotificationService
-{
+{  
 
 	@Override
 	public void send(String to, String message) {
