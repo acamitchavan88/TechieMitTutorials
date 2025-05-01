@@ -11,7 +11,6 @@ import java.util.Scanner;
  */
 
 class ATMWithdrawal {
-
 	public static synchronized void withdrawCash() {
 		int totalBalance = 15000, remainingAmount;
 		System.out.println("Please enter your pin");
@@ -20,10 +19,10 @@ class ATMWithdrawal {
 		String atmpinLength = Integer.toString(atmPinInput);
 		if (atmpinLength.length() != 4) {
 			System.out.println("Invalid pin please enter valid pin");
+			System.exit(1);
 		} else {
 			System.out.println("Enter amount to be withdrawn");
 			int amount = scan.nextInt();
-
 			if (amount <= totalBalance) {
 				System.out.println("Thread currently executing is::"
 						+ Thread.currentThread().getName());
