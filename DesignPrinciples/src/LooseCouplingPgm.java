@@ -1,5 +1,5 @@
 /*
- * Author #TechieMit Program to demonstrate Loose coupling 
+ * Author #TechieMit Program to demonstrate Loose coupling   
  */ 
 interface NotificationService
 {

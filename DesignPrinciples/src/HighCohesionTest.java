@@ -1,6 +1,6 @@
 /*
  * #TechieMit program of Java8 program to demonstrate use of high cohesion
- */
+ */  
 import java.util.*;
 import java.util.stream.Collectors;
 
