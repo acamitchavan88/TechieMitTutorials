@@ -1,0 +1,9 @@
+ Êþº¾   4 3  EmailNotificationService  java/lang/Object  NotificationService <init> ()V Code
+     LineNumberTable LocalVariableTable this LEmailNotificationService; send '(Ljava/lang/String;Ljava/lang/String;)V	    java/lang/System   out Ljava/io/PrintStream;  java/lang/StringBuilder  Sending email to the mail id::
+     (Ljava/lang/String;)V
+    ! " append -(Ljava/lang/String;)Ljava/lang/StringBuilder; $ 	
+  & ' ( toString ()Ljava/lang/String;
+ * , + java/io/PrintStream -  println to Ljava/lang/String; mail 
+SourceFile LooseCouplingPgm.java               	   /     *· 
+±                            	   b      ² » Y· +¶ #¶ ,¶ ¶ %¶ )±       
+                         . /      0 /   1    2
