@@ -1,6 +1,6 @@
 /*
  * Author #TechieMit Program to demonstrate Loose coupling 
- */
+ */ 
 interface NotificationService
 {
 	void send(String to,String message);
