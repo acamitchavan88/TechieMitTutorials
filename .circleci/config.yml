@@ -2,20 +2,18 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:8-jdk   # Use OpenJDK image
-    working_directory: ~/repo
+      - image: circleci/openjdk:8-jdk
+    working_directory: ~/repo/DesignPrinciples
 
     steps:
       - checkout
 
-      # Compile all Java files in src directory into bin directory
       - run:
           name: Compile Java sources
           command: |
             mkdir -p bin
             javac -d bin $(find src -name "*.java")
 
-      # Run your main class (adjust package/class name accordingly)
       - run:
           name: Run application
-          command: java -cp bin com.example.Main
+          command: java -cp bin Main
