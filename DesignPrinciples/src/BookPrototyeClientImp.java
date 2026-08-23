@@ -10,7 +10,7 @@ public class BookPrototyeClientImp {
 	public static void main(String[] args) {
 		List<String> bookPublishersList=new ArrayList<>();
 		bookPublishersList.add("James Rudolph");
-		//New original object 
+		//New original object not created from scratch
 		BookPrototypeImpl bookPrototype=new BookPrototypeImpl("Jungle Book",bookPublishersList);
 		
 		BookPrototypeImpl clonedBookPrototypeImpl=bookPrototype.clone();
