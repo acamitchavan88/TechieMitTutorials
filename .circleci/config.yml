@@ -1,19 +1,39 @@
 version: 2.1
+
 jobs:
   build:
     docker:
-      - image: circleci/openjdk:8-jdk
-    working_directory: ~/repo/DesignPrinciples
+      - image: cimg/openjdk:8.0
+
+    working_directory: ~/repo
 
     steps:
       - checkout
 
       - run:
+          name: Show project structure
+          command: |
+            echo "Current directory:"
+            pwd
+
+            echo "Repository contents:"
+            ls -la
+
+            echo "Java source files:"
+            find DesignPrinciples/src -name "*.java" -type f
+
+      - run:
           name: Compile Java sources
           command: |
-            mkdir -p bin
-            javac -d bin $(find src -name "*.java")
+            mkdir -p DesignPrinciples/bin
+            javac -d DesignPrinciples/bin $(find DesignPrinciples/src -name "*.java")
 
       - run:
           name: Run application
-          command: java -cp bin BookPrototyeClientImp
+          command: |
+            java -cp DesignPrinciples/bin Main
+
+workflows:
+  build-and-run:
+    jobs:
+      - build
