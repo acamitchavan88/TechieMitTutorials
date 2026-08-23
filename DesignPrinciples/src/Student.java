@@ -6,7 +6,7 @@ class Student
 {
 	
 
-//Attributes
+//Attributes are there
 	private String studentName;
 	@Override
 	public String toString() {
