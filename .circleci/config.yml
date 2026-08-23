@@ -31,7 +31,7 @@ jobs:
       - run:
           name: Run application
           command: |
-            java -cp DesignPrinciples/bin Main
+            java -cp DesignPrinciples/bin BookPrototyeClientImp
 
 workflows:
   build-and-run:
